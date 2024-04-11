@@ -54,3 +54,66 @@
     border-radius: 20px;
     width: 300px;
 }
+
+@media only screen and (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+}
+#main{
+    background-color: palevioletred;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#first{
+    border: solid;
+    background-color: pink;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+.nav{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    font-size: 15px;
+    padding-left: 30px;
+
+}
+.nav2{
+    display: flex;
+    gap: 30px;
+
+}
+.buttonone{
+    border-radius: 20px;
+    width: 200px;
+}
+.buttontwo{
+    border-radius: 20px;
+    width: 90px;
+}
+#study{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    font-size: x-large;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    /* padding-top: 150px; */
+    background-color: aliceblue;
+    margin-top: 125px;
+}
+#search{
+    border-radius: 20px;
+    width: 300px;
+}
+
