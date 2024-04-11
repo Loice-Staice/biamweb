@@ -55,23 +55,21 @@
     width: 300px;
 }
 
-@media only screen and (max-width: 768px) {
-    .features {
-        flex-direction: column;
-    
-}
+@media only screen and (max-width: 768px) and (min-width: 360px)  {
+
 #main{
     background-color: palevioletred;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 400px;
-    padding-right: 60px;
+    /* padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 30px; */
+    padding: 10px;
 }
 #first{
     border: solid;
     background-color: pink;
-    width: 900px;
-    height: 600px;
+    /* width: 900px;
+    height: 600px; */
     border-radius: 20px;
     padding: 10px;
     
@@ -79,15 +77,17 @@
 }
 .nav{
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    gap: 50px;
+    gap: 20px;
     font-size: 15px;
     padding-left: 30px;
 
 }
 .nav2{
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
 
 }
 .buttonone{
